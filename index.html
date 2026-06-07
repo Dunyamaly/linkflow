@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no"
+    /> -->
+    <title>LinkFlow | Ana Səhifə</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><i class="fa-solid fa-circle-nodes"></i> LinkFlow</a>
+      </div>
+      <div class="nav-link-block">
+        <ul class="nav-links">
+          <li><a href="#" class="active">Ana səhifə</a></li>
+          <li><a href="#">Kampaniyalar</a></li>
+          <li><a href="#">Necə işləyir?</a></li>
+          <li><a href="#">Bizneslər</a></li>
+          <li><a href="#">Haqqımızda</a></li>
+          <li><a href="#">Əlaqə</a></li>
+        </ul>
+      </div>
+
+      <div class="theme-switcher">
+        <div>
+          <span class="theme-label"><i class="fa-solid fa-sun"></i></span>
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle" />
+            <span class="slider"></span>
+          </label>
+          <span class="theme-label"><i class="fa-solid fa-moon"></i></span>
+        </div>
+
+        <button id="menuBtn" class="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="auth-buttons">
+        <button class="login-btn">Daxil ol</button>
+
+        <button class="register-btn">Qeydiyyatdan keç</button>
+      </div>
+    </nav>
+
+    <!-- BANNER -->
+    <section class="banner-block">
+      <div class="bn-content">
+        <div class="bn-badge">
+          <i class="fa-regular fa-star"></i>
+          Real müştəri. Real alış. Real qazanc.
+        </div>
+
+        <h1>
+          Paylaş, dostlarını gətir,<br />
+          <span>real müştəri ilə qazan!</span>
+        </h1>
+
+        <p class="bn-desc">
+          Bizneslərin kampaniyalarını paylaş və real alış olduqda mükafatını qazan. Sadə, ədalətli
+          və şəffaf.
+        </p>
+
+        <div class="bn-buttons">
+          <button class="rg-btn">
+            Qeydiyyatdan keç
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+
+          <a href="" class="hw-btn">
+            Necə işləyir?
+            <i class="fa-solid fa-play"></i>
+          </a>
+        </div>
+
+        <div class="banner-stats">
+          <div class="users">
+            <img src="img/avatar1.png" />
+            <img src="img/avatar2.png" />
+            <img src="img/avatar3.png" />
+            <img src="img/avatar4.jpg" />
+          </div>
+
+          <span><b>10K+</b> aktiv istifadəçi</span>
+
+          <span class="green-dot">
+            <i class="fa-solid fa-circle"></i>
+            Günlük yeni kampaniyalar
+          </span>
+        </div>
+      </div>
+
+      <div class="banner-right">
+        <div class="income-card">
+          <small>Bu ay qazancın</small>
+          <h3>245.60 ₼</h3>
+
+          <div class="success-tag">+12.5%</div>
+
+          <div class="mini-stats">
+            <div>
+              <span>Tamamlanan satışlar</span>
+              <strong>28</strong>
+            </div>
+
+            <div>
+              <span>Aktiv kampaniyalar</span>
+              <strong>8</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="graph-card">
+          <h5>Qazanc qrafiki</h5>
+
+          <svg viewBox="0 0 300 80">
+            <path
+              d="M0 60
+             C20 55 40 35 60 45
+             C80 55 100 25 120 35
+             C140 45 160 15 180 25
+             C200 35 220 10 240 20
+             C260 30 280 15 300 5"
+              fill="none"
+              stroke="#6c4cff"
+              stroke-width="4"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+
+        <div class="banner-image"></div>
+      </div>
+    </section>
+
+    <!-- HOW WORKING -->
+    <section class="how-working">
+      <h3 class="head-hw">Necə işləyir?</h3>
+
+      <div class="steps-flow">
+        <div class="step-item">
+          <div class="step-icon">
+            <i class="fa-solid fa-bullhorn"></i>
+          </div>
+
+          <div class="step-content">
+            <span class="st_1">01</span>
+            <h4>Kampaniya seç</h4>
+            <p>Səni maraqlandıran kampaniyanı seç</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-icon">
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+
+          <div class="step-content">
+            <span class="st_2">02</span>
+            <h4>Paylaş</h4>
+            <p>Linki dostlarınla göndər və ya sosial şəbəkələrdə paylaş</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-icon">
+            <i class="fa-solid fa-users"></i>
+          </div>
+
+          <div class="step-content">
+            <span class="st_3">03</span>
+            <h4>Dostun gəlsin</h4>
+            <p>Paylaşdığın linkdən dostun daxil olub alış etsin</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-icon">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+
+          <div class="step-content">
+            <span class="st_4">04</span>
+            <h4>Mükafat qazan</h4>
+            <p>Real alış tamamlandıqda qazanc əldə et</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OWNERS BLOCK-->
+    <div class="owner-block">
+      <h4>Etibarlı bizneslər bizimlə çalışır</h4>
+      <div class="owner-cnt">
+        <div class="owners">
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-mug-hot"></i></div>
+            <div class="owner-name">CoffeeLab</div>
+          </div>
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-burger"></i></div>
+            <div class="owner-name">BURGER HOUSE</div>
+          </div>
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-dumbbell"></i></div>
+            <div class="owner-name">GYM ZONE</div>
+          </div>
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-spa"></i></div>
+            <div class="owner-name">BEAUTY STUDIO</div>
+          </div>
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-pizza-slice"></i></div>
+            <div class="owner-name">PIZZA MAFIA</div>
+          </div>
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-florin-sign"></i></div>
+            <div class="owner-name">FIT LIFE</div>
+          </div>
+          <div class="owner-card">
+            <div class="own-logo"><i class="fa-solid fa-person-skating"></i></div>
+            <div class="owner-name">Baku Karting</div>
+          </div>
+        </div>
+        <a class="all-owner-btn">Hamsına bax <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="" class="all-owner-btn-rsp">4+</a>
+      </div>
+    </div>
+
+    <!-- CATEGORY AND MISSIONS -->
+    <div class="ct-ms-block">
+      <!-- category block -->
+      <div class="ct-block">
+        <h3>Kateqoriyalar</h3>
+        <div class="filter">
+          <a href="" class="active"><i class="fa-solid fa-mug-hot"></i> Restoran & Kafe</a>
+          <a href=""><i class="fa-solid fa-dumbbell"></i> Gym & Fitness</a>
+          <a href=""><i class="fa-solid fa-spa"></i> Gözəllik salonu</a>
+          <a href=""><i class="fa-brands fa-servicestack"></i> Əyləncə & Aktivlik</a>
+          <a href=""><i class="fa-solid fa-ellipsis"></i> Digər</a>
+        </div>
+      </div>
+
+      <!-- missions block -->
+      <div class="ms-block">
+        <div class="ms-head">
+          <h3>Populyar kampaniyalar</h3>
+          <a href="">Hamsına bax <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="card-list">
+          <div class="card">
+            <a href="#">
+              <div class="badge">30% endirim</div>
+              <img src="img/What_is_a_latte.png" class="card-img" alt="Latte" />
+              <div class="card-detail">
+                <div class="card-owner">
+                  <img src="img/images.png" class="owner-logo-mini" />
+                  <h4>CoffeeLab</h4>
+                </div>
+
+                <h3 class="product-name">Latte</h3>
+
+                <div class="earn-box">
+                  <span class="earn-label">Sənin qazancın</span>
+                  <span class="earn-price"> 1.50 <i class="fa-solid fa-manat-sign"></i> </span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#">
+              <div class="badge">30% endirim</div>
+              <img src="img/What_is_a_latte.png" class="card-img" alt="Latte" />
+              <div class="card-detail">
+                <div class="card-owner">
+                  <img src="img/images.png" class="owner-logo-mini" />
+                  <h4>CoffeeLab</h4>
+                </div>
+
+                <h3 class="product-name">Latte</h3>
+
+                <div class="earn-box">
+                  <span class="earn-label">Sənin qazancın</span>
+                  <span class="earn-price"> 1.50 <i class="fa-solid fa-manat-sign"></i> </span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="card">
+            <a href="#">
+              <div class="badge">30% endirim</div>
+              <img src="img/What_is_a_latte.png" class="card-img" alt="Latte" />
+              <div class="card-detail">
+                <div class="card-owner">
+                  <img src="img/images.png" class="owner-logo-mini" />
+                  <h4>CoffeeLab</h4>
+                </div>
+
+                <h3 class="product-name">Latte</h3>
+
+                <div class="earn-box">
+                  <span class="earn-label">Sənin qazancın</span>
+                  <span class="earn-price"> 1.50 <i class="fa-solid fa-manat-sign"></i> </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="rm-bottom">
+      <div class="navigator-res"></div>
+      <div class="nav-items">
+        <a href="" class="active"><i class="fa-solid fa-house"></i>Ana səhifə</a>
+        <a href=""><i class="fa-solid fa-tags"></i>Kampaniyalar</a>
+        <a href="" class="fb-pl"><i class="fa-solid fa-plus"></i>Paylaş</a>
+        <a href=""><i class="fa-solid fa-chart-column"></i>Statistika</a>
+        <a href=""><i class="fa-solid fa-user"></i>Profil</a>
+      </div>
+    </div>
+
+    <div id="menu">
+      <a href="" style="--i: 1">Ana səhifə</a>
+      <a href="" style="--i: 2">Kampaniyalar</a>
+      <a href="" style="--i: 3">Necə işləyir</a>
+      <a href="" style="--i: 4">Bizneslər</a>
+      <a href="" style="--i: 5">Haqqımızda</a>
+      <a href="" style="--i: 6">Əlaqə</a>
+
+      <button style="--i: 7">Daxil ol</button>
+      <button style="--i: 8">Qeydiyyat</button>
+    </div>
+
+    <script src="js/menu.js"></script>
+    <script src="js/dark.js"></script>
+  </body>
+</html>
